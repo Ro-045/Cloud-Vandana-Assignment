@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1b2a; /* Dark blue for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background: #678fa3; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+}
+
+.avatar-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    border: 3px solid white;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-role {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.user-description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icon {
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Individual colors */
+.instagram {
+    color: #E4405F; /* Instagram pink */
+}
+
+.twitter {
+    color: #000000; /* X (Twitter) black */
+}
+
+.facebook {
+    color: #1877F2; /* Facebook blue */
+}
+
+
+@media (max-width: 600px) {
+    .profile-card {
+        padding: 15px;
+        max-width: 280px;
+    }
+
+    .avatar-container {
+        width: 100px;
+        height: 100px;
+    }
+
+    .user-name {
+        font-size: 1.5rem;
+    }
+
+    .user-role {
+        font-size: 0.9rem;
+    }
+
+    .user-description {
+        font-size: 0.8rem;
+    }
+
+    .social-icon {
+        font-size: 20px;
+    }
+}
