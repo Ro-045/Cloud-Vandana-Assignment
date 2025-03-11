@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0d1b2a; /* Dark blue for contrast */
+    background-color: #0d1b2a; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,22 +65,22 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect */
+
 .social-icon:hover {
     transform: scale(1.2);
 }
 
-/* Individual colors */
+
 .instagram {
-    color: #E4405F; /* Instagram pink */
+    color: #E4405F; 
 }
 
 .twitter {
-    color: #000000; /* X (Twitter) black */
+    color: #000000; 
 }
 
 .facebook {
-    color: #1877F2; /* Facebook blue */
+    color: #1877F2;
 }
 
 
